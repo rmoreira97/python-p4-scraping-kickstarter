@@ -23,7 +23,7 @@ def create_project_dict():
         'location': project.select("ul.project-meta span.location-name")[0].text,
         'percent_funded': project.select("ul.project-stats li.first.funded strong")[0].text.replace("%","")
         }
-    # return the projects dictionary
+    # return the projects dictionaryddd
 
     return projects
 
